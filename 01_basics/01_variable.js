@@ -4,3 +4,4 @@ var accountCity="bengaluru"
 console.log(accountCity);
 console.table([accountCity,accountEmail,accountPassword]);
 console.table([accountCity,accountEmail,accountPassword]);
+console.table([accountCity,accountEmail,accountPassword]);
