@@ -1,12 +1,15 @@
 const id=Symbol('123')
 const anotherId=Symbol('123')
 // console.log(id === anotherId)
+// console.log(typeof id);   //symbol
 
 const bigNumber=123456789n
-// console.log(typeof bigNumber);//bigint
+// console.log(typeof bigNumber);  //bigint
 
 const nullValue=null
-console.log(typeof null);//object
+// console.log(typeof null);  //object
+
+
 
 const heros=["shaktimn","doga"]
 // let myObj{
