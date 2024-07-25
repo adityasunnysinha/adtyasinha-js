@@ -26,3 +26,24 @@ const heros=["shaktimn","doga"]
 // phone me kuch screenshot hai 25 jul 24 me dekh lena kon se ka kya datatype aayga
 
 
+//********************************************************************* */
+
+
+//Stack memory (primitive), Heap memory (non primitive)
+//stack
+let myYoutubename ="helloworld"
+let anotherName=myYoutubename
+anotherName="chai aur code"
+// console.log(myYoutubename)
+// console.log(anotherName)
+
+//heap
+let userOne={
+    email:"a@gmail.com",
+    upi:"abcd@ybl"
+}
+
+let userTwo=userOne
+userTwo.email="b@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
